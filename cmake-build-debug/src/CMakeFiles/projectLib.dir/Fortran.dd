@@ -1,6 +1,0 @@
-ninja_dyndep_version = 1.0
-build src/CMakeFiles/projectLib.dir/project.f90.o | src/project.mod: dyndep
-  restat = 1
-
-build src/CMakeFiles/projectLib.dir/constants.f90.o: dyndep
-
