@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 13,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -37,7 +37,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 27,
+				"line" : 26,
 				"parent" : 2
 			},
 			{
@@ -49,7 +49,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 0
 			}
 		]
@@ -60,7 +60,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -std=f95 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Jsrc"
+					"fragment" : "-g -Jsrc -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
@@ -71,8 +71,16 @@
 				},
 				{
 					"backtrace" : 5,
+					"path" : "/usr/include/plplot"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/usr/lib/x86_64-linux-gnu/fortran/modules/plplot"
+				},
+				{
+					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/usr/local/include/fortran_stdlib/GNU-13.2.0"
+					"path" : "/usr/local/include/fortran_stdlib/GNU-11.4.0"
 				}
 			],
 			"language" : "Fortran",
@@ -109,11 +117,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-std=f95 -g",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-L/opt/homebrew/opt/openblas/lib",
+				"fragment" : "",
 				"role" : "flags"
 			},
 			{
@@ -124,6 +132,11 @@
 			{
 				"backtrace" : 4,
 				"fragment" : "/usr/local/lib/libfortran_stdlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lplplotfortran",
 				"role" : "libraries"
 			}
 		],

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FortranControlSystem.iml" filepath="$PROJECT_DIR$/.idea/FortranControlSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Fortran-Navigation-System.iml" filepath="$PROJECT_DIR$/.idea/Fortran-Navigation-System.iml" />
     </modules>
   </component>
 </project>

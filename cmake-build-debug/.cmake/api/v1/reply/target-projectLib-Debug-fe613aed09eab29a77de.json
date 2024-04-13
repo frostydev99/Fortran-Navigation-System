@@ -26,13 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -43,7 +43,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -std=f95 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Jsrc"
+					"fragment" : "-g -Jsrc -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
@@ -54,7 +54,15 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/usr/local/include/fortran_stdlib/GNU-13.2.0"
+					"path" : "/usr/local/include/fortran_stdlib/GNU-11.4.0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/usr/include/plplot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/usr/lib/x86_64-linux-gnu/fortran/modules/plplot"
 				}
 			],
 			"language" : "Fortran",

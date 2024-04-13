@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_ADDR2LINE-NOTFOUND"
+			"value" : "/usr/bin/addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -39,7 +39,7 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
 				}
 			],
 			"type" : "STRING",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/frostydev/CLionProjects/FortranControlSystem/build"
+			"value" : "/home/frostydev/workspace/HPRC/Fortran-Navigation-System/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "29"
+			"value" : "26"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,19 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "4"
+		},
+		{
+			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable colored diagnostics throughout."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -103,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake"
+			"value" : "/home/frostydev/bin/clion-2023.2.1/bin/cmake/linux/x64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -115,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/cmake/3.29.2/bin/cpack"
+			"value" : "/home/frostydev/bin/clion-2023.2.1/bin/cmake/linux/x64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -127,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/cmake/3.29.2/bin/ctest"
+			"value" : "/home/frostydev/bin/clion-2023.2.1/bin/cmake/linux/x64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_DLLTOOL",
@@ -146,18 +158,6 @@
 			"value" : "CMAKE_DLLTOOL-NOTFOUND"
 		},
 		{
-			"name" : "CMAKE_EDIT_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to cache edit program executable."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/cmake/3.29.2/bin/ccmake"
-		},
-		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
 			"properties" : 
 			[
@@ -167,7 +167,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "MACHO"
+			"value" : "ELF"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS",
@@ -183,7 +183,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-L/opt/homebrew/opt/openblas/lib"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
@@ -254,12 +254,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Enable/Disable output of compile commands during generation."
 				}
 			],
 			"type" : "BOOL",
-			"value" : "TRUE"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -283,7 +287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/frostydev/CLionProjects/FortranControlSystem/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/frostydev/workspace/HPRC/Fortran-Navigation-System/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_Fortran_COMPILER",
@@ -299,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/opt/homebrew/bin/gfortran"
+			"value" : "/usr/bin/f95"
 		},
 		{
 			"name" : "CMAKE_Fortran_COMPILER_AR",
@@ -315,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/opt/homebrew/bin/gcc-ar-13"
+			"value" : "/usr/bin/gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_Fortran_COMPILER_RANLIB",
@@ -331,7 +335,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/opt/homebrew/bin/gcc-ranlib-13"
+			"value" : "/usr/bin/gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_Fortran_FLAGS",
@@ -379,7 +383,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-Os"
+			"value" : "-Os -DNDEBUG -Os"
 		},
 		{
 			"name" : "CMAKE_Fortran_FLAGS_RELEASE",
@@ -395,7 +399,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O3"
+			"value" : "-O3 -DNDEBUG -O3"
 		},
 		{
 			"name" : "CMAKE_Fortran_FLAGS_RELWITHDEBINFO",
@@ -411,7 +415,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O2 -g"
+			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -471,7 +475,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/frostydev/CLionProjects/FortranControlSystem"
+			"value" : "/home/frostydev/workspace/HPRC/Fortran-Navigation-System"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -650,22 +654,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_INSTALL_NAME_TOOL",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/bin/install_name_tool"
-		},
-		{
 			"name" : "CMAKE_INSTALL_OLDINCLUDEDIR",
 			"properties" : 
 			[
@@ -742,6 +730,18 @@
 			"value" : "com"
 		},
 		{
+			"name" : "CMAKE_INSTALL_SO_NO_EXE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install .so files without execute permission."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
 			"name" : "CMAKE_INSTALL_SYSCONFDIR",
 			"properties" : 
 			[
@@ -778,16 +778,12 @@
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : "Program used to build from build.ninja files."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "/opt/homebrew/bin/ninja"
+			"type" : "UNINITIALIZED",
+			"value" : "/home/frostydev/bin/clion-2023.2.1/bin/ninja/linux/x64/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -803,7 +799,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-L/opt/homebrew/opt/openblas/lib"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
@@ -911,7 +907,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_OBJCOPY-NOTFOUND"
+			"value" : "/usr/bin/objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -928,42 +924,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/bin/objdump"
-		},
-		{
-			"name" : "CMAKE_OSX_ARCHITECTURES",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build architectures for OSX"
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_OSX_DEPLOYMENT_TARGET",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Minimum OS X version to target for deployment (at runtime); newer APIs weak linked. Set to empty string for default value."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_OSX_SYSROOT",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The product will be built against the headers and libraries located inside the indicated SDK."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1103,7 +1063,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_READELF-NOTFOUND"
+			"value" : "/usr/bin/readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1115,7 +1075,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/cmake/3.29.2/share/cmake"
+			"value" : "/home/frostydev/bin/clion-2023.2.1/bin/cmake/linux/x64/share/cmake-3.26"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1131,7 +1091,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-L/opt/homebrew/opt/openblas/lib"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
@@ -1326,22 +1286,6 @@
 			"value" : "/usr/bin/strip"
 		},
 		{
-			"name" : "CMAKE_TAPI",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/Library/Developer/CommandLineTools/usr/bin/tapi"
-		},
-		{
 			"name" : "CMAKE_UNAME",
 			"properties" : 
 			[
@@ -1379,7 +1323,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/opt/homebrew/bin/pkg-config][v0.29.2()]"
+			"value" : "[/usr/bin/pkg-config][v0.29.2()]"
 		},
 		{
 			"name" : "FortranControlSystem_BINARY_DIR",
@@ -1391,7 +1335,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/frostydev/CLionProjects/FortranControlSystem/build"
+			"value" : "/home/frostydev/workspace/HPRC/Fortran-Navigation-System/cmake-build-debug"
 		},
 		{
 			"name" : "FortranControlSystem_IS_TOP_LEVEL",
@@ -1415,7 +1359,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/frostydev/CLionProjects/FortranControlSystem"
+			"value" : "/home/frostydev/workspace/HPRC/Fortran-Navigation-System"
 		},
 		{
 			"name" : "PKG_CONFIG_ARGN",
@@ -1447,7 +1391,427 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/opt/homebrew/bin/pkg-config"
+			"value" : "/usr/bin/pkg-config"
+		},
+		{
+			"name" : "PLPLOT_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/plplot;-I/usr/lib/x86_64-linux-gnu/fortran/modules/plplot;-I/usr/include/plplot"
+		},
+		{
+			"name" : "PLPLOT_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "PLPLOT_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/plplot"
+		},
+		{
+			"name" : "PLPLOT_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/plplot;/usr/lib/x86_64-linux-gnu/fortran/modules/plplot;/usr/include/plplot"
+		},
+		{
+			"name" : "PLPLOT_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-L/usr/lib/x86_64-linux-gnu;-lplplotfortran"
+		},
+		{
+			"name" : "PLPLOT_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "PLPLOT_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "plplotfortran"
+		},
+		{
+			"name" : "PLPLOT_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "PLPLOT_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_MODULE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "plplot-fortran"
+		},
+		{
+			"name" : "PLPLOT_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_STATIC_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/plplot;-I/usr/lib/x86_64-linux-gnu/fortran/modules/plplot;-I/usr/include/plplot"
+		},
+		{
+			"name" : "PLPLOT_STATIC_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_STATIC_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_STATIC_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/plplot;/usr/lib/x86_64-linux-gnu/fortran/modules/plplot;/usr/include/plplot"
+		},
+		{
+			"name" : "PLPLOT_STATIC_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/gcc/x86_64-linux-gnu/11;-lplplotfortran;-lplplot;-lltdl;-lm;-lshp;-lfreetype;-lcsirocsa;-lcsironn;-lqhull_r;-lqsastime;-lstdc++;-lm;-lgcc_s;-lgcc;-lc;-lgcc_s;-lgcc"
+		},
+		{
+			"name" : "PLPLOT_STATIC_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_STATIC_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_STATIC_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "plplotfortran;plplot;ltdl;m;shp;freetype;csirocsa;csironn;qhull_r;qsastime;stdc++;m;gcc_s;gcc;c;gcc_s;gcc"
+		},
+		{
+			"name" : "PLPLOT_STATIC_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/11"
+		},
+		{
+			"name" : "PLPLOT_STATIC_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_STATIC_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_STATIC_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_STATIC_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "5.15.0"
+		},
+		{
+			"name" : "PLPLOT_plplot-fortran_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_plplot-fortran_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_plplot-fortran_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PLPLOT_plplot-fortran_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
 		},
 		{
 			"name" : "STDLIB_CFLAGS",
@@ -1459,7 +1823,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-I/usr/local/include;-I/usr/local/include/fortran_stdlib/GNU-13.2.0"
+			"value" : "-I/usr/local/include;-I/usr/local/include/fortran_stdlib/GNU-11.4.0"
 		},
 		{
 			"name" : "STDLIB_CFLAGS_I",
@@ -1519,7 +1883,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/local/include;/usr/local/include/fortran_stdlib/GNU-13.2.0"
+			"value" : "/usr/local/include;/usr/local/include/fortran_stdlib/GNU-11.4.0"
 		},
 		{
 			"name" : "STDLIB_LDFLAGS",
@@ -1663,7 +2027,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-I/usr/local/include;-I/usr/local/include/fortran_stdlib/GNU-13.2.0"
+			"value" : "-I/usr/local/include;-I/usr/local/include/fortran_stdlib/GNU-11.4.0"
 		},
 		{
 			"name" : "STDLIB_STATIC_CFLAGS_I",
@@ -1699,7 +2063,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/local/include;/usr/local/include/fortran_stdlib/GNU-13.2.0"
+			"value" : "/usr/local/include;/usr/local/include/fortran_stdlib/GNU-11.4.0"
 		},
 		{
 			"name" : "STDLIB_STATIC_LDFLAGS",
@@ -1870,6 +2234,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
 			"properties" : 
 			[
@@ -1882,6 +2258,18 @@
 			"value" : "/usr/local"
 		},
 		{
+			"name" : "__pkg_config_arguments_PLPLOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "REQUIRED;plplot-fortran"
+		},
+		{
 			"name" : "__pkg_config_arguments_STDLIB",
 			"properties" : 
 			[
@@ -1892,6 +2280,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "REQUIRED;fortran_stdlib"
+		},
+		{
+			"name" : "__pkg_config_checked_PLPLOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
 		},
 		{
 			"name" : "__pkg_config_checked_STDLIB",
@@ -1916,6 +2316,22 @@
 			],
 			"type" : "PATH",
 			"value" : "/usr/local/lib/cmake/fortran_stdlib"
+		},
+		{
+			"name" : "pkgcfg_lib_PLPLOT_plplotfortran",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libplplotfortran.so"
 		},
 		{
 			"name" : "pkgcfg_lib_STDLIB_fortran_stdlib",
@@ -1943,7 +2359,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/local/lib"
+			"value" : "/usr/lib/x86_64-linux-gnu"
 		},
 		{
 			"name" : "projectModules",
