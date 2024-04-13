@@ -1,0 +1,64 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13/include",
+						"/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/homebrew/opt/openblas/lib",
+						"/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13",
+						"/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc",
+						"/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gfortran",
+						"emutls_w",
+						"gcc",
+						"quadmath"
+					]
+				},
+				"path" : "gfortran",
+				"version" : "13.2.0"
+			},
+			"language" : "Fortran",
+			"sourceFileExtensions" : 
+			[
+				"f",
+				"F",
+				"fpp",
+				"FPP",
+				"f77",
+				"F77",
+				"f90",
+				"F90",
+				"for",
+				"For",
+				"FOR",
+				"f95",
+				"F95",
+				"f03",
+				"F03",
+				"f08",
+				"F08"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/Users/frostydev/CLionProjects/FortranControlSystem/cmake-build-debug/src",
+	"dir-cur-src" : "/Users/frostydev/CLionProjects/FortranControlSystem/src",
+	"dir-top-bld" : "/Users/frostydev/CLionProjects/FortranControlSystem/cmake-build-debug",
+	"dir-top-src" : "/Users/frostydev/CLionProjects/FortranControlSystem",
+	"exports" : [],
+	"include-dirs" : 
+	[
+		"/usr/local/include",
+		"/opt/homebrew/Cellar/plplot/5.15.0_4/include/plplot",
+		"/opt/homebrew/Cellar/plplot/5.15.0_4/lib/fortran/modules/plplot",
+		"/opt/homebrew/opt/libpng/include/libpng16",
+		"/opt/homebrew/opt/freetype/include/freetype2",
+		"/opt/homebrew/Cellar/fontconfig/2.14.2/include",
+		"/opt/homebrew/Cellar/pcre2/10.42/include",
+		"/opt/homebrew/Cellar/glib/2.78.0/include",
+		"/opt/homebrew/Cellar/glib/2.78.0/include/glib-2.0",
+		"/opt/homebrew/Cellar/glib/2.78.0/lib/glib-2.0/include",
+		"/opt/homebrew/opt/gettext/include",
+		"/opt/homebrew/Cellar/libxau/1.0.11/include",
+		"/opt/homebrew/Cellar/libxdmcp/1.1.4/include",
+		"/opt/homebrew/Cellar/libxcb/1.16/include",
+		"/opt/homebrew/Cellar/libx11/1.8.6/include",
+		"/opt/homebrew/Cellar/libxext/1.3.5/include",
+		"/opt/homebrew/Cellar/libxrender/0.9.11/include",
+		"/opt/homebrew/Cellar/pixman/0.42.2/include/pixman-1",
+		"/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo",
+		"/opt/homebrew/Cellar/fribidi/1.0.13/include/fribidi",
+		"/opt/homebrew/Cellar/graphite2/1.3.14/include",
+		"/opt/homebrew/Cellar/harfbuzz/8.2.0/include/harfbuzz",
+		"/opt/homebrew/Cellar/pango/1.50.14/include/pango-1.0",
+		"/opt/homebrew/Cellar/xorgproto/2023.2/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/ffi",
+		"/usr/local/include/fortran_stdlib/GNU-13.2.0"
+	],
+	"language" : "Fortran",
+	"linked-target-dirs" : 
+	[
+		"/Users/frostydev/CLionProjects/FortranControlSystem/cmake-build-debug/src/CMakeFiles/projectLib.dir"
+	],
+	"module-dir" : "/Users/frostydev/CLionProjects/FortranControlSystem/cmake-build-debug/src",
+	"submodule-ext" : ".smod",
+	"submodule-sep" : "@"
+}

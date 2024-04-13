@@ -1,0 +1,28 @@
+{
+	"revision" : 0,
+	"rules" : 
+	[
+		{
+			"outputs" : [],
+			"primary-output" : "src/CMakeFiles/projectLib.dir/project.f90.o",
+			"provides" : 
+			[
+				{
+					"compiled-module-path" : "src/project.mod",
+					"is-interface" : true,
+					"logical-name" : "project.mod"
+				}
+			],
+			"requires" : 
+			[
+				{
+					"logical-name" : "plplot.mod"
+				},
+				{
+					"logical-name" : "stdlib_logger.mod"
+				}
+			]
+		}
+	],
+	"version" : 0
+}

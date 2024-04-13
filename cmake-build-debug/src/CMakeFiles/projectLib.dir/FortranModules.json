@@ -1,0 +1,12 @@
+{
+	"modules" : 
+	{
+		"project.mod" : 
+		{
+			"bmi" : "/Users/frostydev/CLionProjects/FortranControlSystem/cmake-build-debug/src/project.mod",
+			"is-private" : false
+		}
+	},
+	"references" : {},
+	"usages" : {}
+}

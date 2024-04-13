@@ -1,0 +1,24 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/Users/frostydev/CLionProjects/FortranControlSystem/build/src",
+	"dir-cur-src" : "/Users/frostydev/CLionProjects/FortranControlSystem/src",
+	"dir-top-bld" : "/Users/frostydev/CLionProjects/FortranControlSystem/build",
+	"dir-top-src" : "/Users/frostydev/CLionProjects/FortranControlSystem",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/usr/local/include",
+		"/usr/local/include/fortran_stdlib/GNU-13.2.0"
+	],
+	"language" : "Fortran",
+	"linked-target-dirs" : [],
+	"module-dir" : "/Users/frostydev/CLionProjects/FortranControlSystem/build/src",
+	"submodule-ext" : ".smod",
+	"submodule-sep" : "@"
+}
