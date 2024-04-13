@@ -1,6 +1,8 @@
 # IDE Config Files
 .vscode
 .idea
+build
+cmake-build-debug
 
 # Prerequisites
 *.d
